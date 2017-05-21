@@ -12,7 +12,6 @@ sha256sums=('SKIP')
 
 build() {
   export CARGO_HOME="${srcdir}/cargo-repository"
-
   cd "${srcdir}/${pkgname}"
   make
 }
